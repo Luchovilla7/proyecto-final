@@ -12,66 +12,84 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img class="logo" src="assets/img/logo-name.png" alt=""></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/service.html">Servicios</a></li>
-                <li><a href="pages/portfolio.html">Portfolio</a></li>
-                <li><a href="pages/about.html">Nosotros</a></li>
-                <button class="but"><a href="pages/contact.html">Contacto</a></buttton>
-            </ul>
-        </nav>    
-    </header>
-    
+    <div class="bg-nav">
+        <nav class="navbar-style navbar navbar-expand-sm navbar-dark ">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img class="logo" src="assets/img/logo-name.png" alt=""></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+            </div>
+
+            <div id="MenuNavegacion" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pages/service.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pages/portfolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pages/about.html">Nosotros</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-nowrap text-white" href="pages/contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <section class="content-titulo">
         <article>
             <h1>LA AGENCIA DIGITAL QUE TE AYUDA A CRECER 🚀</h1>
-            <a href="#service"><input type="button" value="Ver Más"/></a>
+            <a href="#service"><input type="button" value="Ver Más" /></a>
         </article>
     </section>
-    
+
     <main class="fondo" id="service">
-        <section class="about-services" >
-                <div class="contenedor">
-                    <h2 class="titulo">¿Que hacemos?</h2>
-                    <div class="servicio-contenedor">
-                        <div class="servicio-i">
-                            <img src="assets/img/ilustracion1.svg" alt="">
-                            <h3>Hacemos crecer tu negocio en las Redes</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis odio provident vero iusto quod, eos quia eaque molestiae nulla enim quam nobis veritatis vel exercitationem dicta, rerum officia ad.
-                            Quia similique voluptatum in libero impedit, voluptatem quisquam fugit tenetur itaque eaque minima eius voluptatibus alias iure. Sit animi repellat labore asperiores numquam debitis aut in, sed reprehenderit ad dolores?</p>
-                        </div>
-                        <div class="servicio-i">
-                            <img src="assets/img/ilustracion2.svg" alt="">
-                            <h3>Creamos tu sitio Web</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis odio provident vero iusto quod, eos quia eaque molestiae nulla enim quam nobis veritatis vel exercitationem dicta, rerum officia ad.
-                                Quia similique voluptatum in libero impedit, voluptatem quisquam fugit tenetur itaque eaque minima eius voluptatibus alias iure. Sit animi repellat labore asperiores numquam debitis aut in, sed reprehenderit ad dolores?</p>                        
-                        </div>
-                        <div class="servicio-i">
-                            <img src="assets/img/ilustracion3.svg" alt="">
-                            <h3>Ayudamos en tu posicionamiento digital</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis odio provident vero iusto quod, eos quia eaque molestiae nulla enim quam nobis veritatis vel exercitationem dicta, rerum officia ad.
-                                Quia similique voluptatum in libero impedit, voluptatem quisquam fugit tenetur itaque eaque minima eius voluptatibus alias iure. Sit animi repellat labore asperiores numquam debitis aut in, sed reprehenderit ad dolores?</p>                        
-                        </div>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">¿Que hacemos?</h2>
+                <div class="servicio-contenedor">
+                    <div class="servicio-i">
+                        <img src="assets/img/ilustracion1.svg" alt="">
+                        <h3>Hacemos crecer tu negocio en las Redes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis odio provident vero iusto quod, eos quia eaque molestiae nulla enim quam nobis veritatis vel exercitationem dicta, rerum officia ad. Quia similique voluptatum
+                            in libero impedit, voluptatem quisquam fugit tenetur itaque eaque minima eius voluptatibus alias iure. Sit animi repellat labore asperiores numquam debitis aut in, sed reprehenderit ad dolores?</p>
+                    </div>
+                    <div class="servicio-i">
+                        <img src="assets/img/ilustracion2.svg" alt="">
+                        <h3>Creamos tu sitio Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis odio provident vero iusto quod, eos quia eaque molestiae nulla enim quam nobis veritatis vel exercitationem dicta, rerum officia ad. Quia similique voluptatum
+                            in libero impedit, voluptatem quisquam fugit tenetur itaque eaque minima eius voluptatibus alias iure. Sit animi repellat labore asperiores numquam debitis aut in, sed reprehenderit ad dolores?</p>
+                    </div>
+                    <div class="servicio-i">
+                        <img src="assets/img/ilustracion3.svg" alt="">
+                        <h3>Ayudamos en tu posicionamiento digital</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis odio provident vero iusto quod, eos quia eaque molestiae nulla enim quam nobis veritatis vel exercitationem dicta, rerum officia ad. Quia similique voluptatum
+                            in libero impedit, voluptatem quisquam fugit tenetur itaque eaque minima eius voluptatibus alias iure. Sit animi repellat labore asperiores numquam debitis aut in, sed reprehenderit ad dolores?</p>
                     </div>
                 </div>
+            </div>
         </section>
-        <div class="contenedor">
-        <h2 class="titulo">Proyectamos nuestro trabajo garantizando tu éxito</h2>
-        </div>
+
         <div class="container-fluid">
-                <div class="bg-bs row text-center pt-3">
-                    <div class="col-sm-7">
-                        <img src="assets/img/logo-name.png " class="img-fluid mt-5" alt=" ">
-                        <p class="text-white fs-4 m-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptatum autem provident ex fugiat, cupiditate impedit tenetur consequatur. Natus eos veritatis deserunt aut ullam eligendi voluptatibus officiis? Eius, aliquid quia.</p>
-                        <a href="pages/contact.html"><input class="m-3" type="button" value="Contactános"></a>
-                    </div>
-                    <div class="col-sm-5">
-                        <img src="assets/img/woman-e.png" alt="" class="w-75">
-                    </div>
+            <div class="bg-bs row text-center pt-3">
+                <div class="col-sm-7">
+                    <img src="assets/img/logo-name.png " class="img-fluid mt-5" alt=" ">
+                    <p class="text-white fs-4 m-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptatum autem provident ex fugiat, cupiditate impedit tenetur consequatur. Natus eos veritatis deserunt aut ullam eligendi voluptatibus officiis? Eius, aliquid quia.
+                    </p>
+                    <a href="pages/contact.html"><input class="m-3" type="button" value="Contactános"></a>
                 </div>
+                <div class="col-sm-5">
+                    <img src="assets/img/woman-e.png" alt="" class="w-75">
+                </div>
+            </div>
         </div>
     </main>
     <footer>

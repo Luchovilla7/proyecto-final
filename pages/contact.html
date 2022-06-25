@@ -12,18 +12,38 @@
 </head>
 
 <body>
-    <header>
-        <a href="../index.html"><img class="logo" src="../assets/img/logo-name.png" alt=""></a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/service.html">Servicios</a></li>
-                <li><a href="../pages/portfolio.html">Portfolio</a></li>
-                <li><a href="../pages/about.html">Nosotros</a></li>
-                <button class="but"><a href="../pages/contact.html">Contacto</a></buttton>
-            </ul>
-        </nav>    
-    </header>
+    <div class="bg-nav">
+        <nav class="navbar-style navbar navbar-expand-sm navbar-dark ">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img class="logo" src="../assets/img/logo-name.png" alt=""></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+            </div>
+
+            <div id="MenuNavegacion" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="service.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="portfolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">Nosotros</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-nowrap text-white" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <main class="service-body">
         <section class="content-titulo">
             <article>
@@ -38,7 +58,20 @@
                 <textarea placeholder="COMENTARIO..." required></textarea>
                 <input type="submit" value="ENVIAR MENSAJE ✉">
             </form>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28571.75739044215!2d-54.71039669650005!3d-26.4728184164914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f776cc76399bb3%3A0x1a9e182f7b641f84!2sPuerto%20Piray%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1654288983242!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="text-center py-5">
+                <h1 class="display-5 fw-bold text-white">Visitanos en nuestras redes sociales</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="fs-5 mb-4 text-white">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful
+                        JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Facebook</button>
+                        <button type="button" class="btn btn-outline-light btn-lg px-4">Instagram</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28571.75739044215!2d-54.71039669650005!3d-26.4728184164914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f776cc76399bb3%3A0x1a9e182f7b641f84!2sPuerto%20Piray%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1654288983242!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
