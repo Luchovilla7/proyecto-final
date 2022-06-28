@@ -30,7 +30,7 @@ body {
 
 .navbar-style {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     margin: 0px 25px;
 }
 
@@ -140,16 +140,14 @@ input[value="Ver Más"]:hover {
 }
 
 .servicio-i h3 {
+    color: #fff;
     margin: 10px 0;
 }
 
 .servicio-i p {
+    color: #fff;
     font-weight: 300;
     text-align: center;
-}
-
-.fondo {
-    background-color: #fff;
 }
 
 
@@ -217,6 +215,33 @@ footer {
 }
 
 
+/* Botón WhatsApp */
+
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    padding: 3px 2px 10px;
+    background-color: #25d366;
+    color: #FFF;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 30%);
+    border-radius: 50px;
+    border: 3px solid #fff;
+    text-align: center;
+    font-size: 30px;
+    z-index: 99;
+}
+
+.whatsapp:hover {
+    background-color: #fff;
+    color: #25d366;
+    border: 3px solid #25d366;
+    transition: all .5s;
+}
+
+
 /* ------------------------------------------------ */
 
 
@@ -256,7 +281,7 @@ footer {
 }
 
 .cont-s-caja p {
-    margin: 25px;
+    margin: 0px 25px 25px;
 }
 
 .btn-serv {
@@ -268,6 +293,13 @@ footer {
     text-decoration: none;
     padding: 10px;
     cursor: pointer;
+}
+
+.btn-serv:hover {
+    border: 2px solid #fff;
+    background: #3b1d7d;
+    transition: all .4s;
+    color: #fff;
 }
 
 
@@ -343,12 +375,28 @@ footer {
 /* Página de Contacto*/
 
 form {
-    padding: 30px 25px 25px;
+    padding: 50px 25px 25px;
     margin: 45px 150px;
     border: 3px solid #fff;
     border-radius: 20px;
-    background-color: black;
+    background-color: #000;
     text-align: center;
+}
+
+form>div {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    padding: 10px 10px 5px;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+}
+
+form>div>img {
+    width: 90px;
 }
 
 form input,
@@ -420,6 +468,35 @@ form input[type="submit"] {
     .titulo-copy {
         font-size: 15px;
     }
+    /* ----- service -----*/
+    .cont-lg {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cont-serv {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+    /* ----- contact -----*/
+    form {
+        margin: 20px 15px;
+        padding: 50px 10px;
+    }
+    form>div {
+        display: none;
+    }
+    form>div>img {
+        width: 50px;
+    }
+    form textarea,
+    form input {
+        width: 50vw;
+        font-size: 10px;
+    }
+    form input[type="submit"] {
+        width: 10vw;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -446,5 +523,20 @@ form input[type="submit"] {
     }
     .titulo-copy {
         font-size: 15px;
+    }
+    /* ----- contact -----*/
+    form {
+        margin: 20px 15px;
+        padding: 50px 15px;
+    }
+    form>div {
+        display: none;
+    }
+    form textarea,
+    form input {
+        width: 20vh;
+    }
+    form input[type="submit"] {
+        width: 20vw;
     }
 }
