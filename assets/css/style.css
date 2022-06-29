@@ -38,7 +38,7 @@ body {
     margin: 2px 5px 0px;
 }
 
-li>a::after {
+nav ul li>a::after {
     content: "";
     display: block;
     margin: auto;
@@ -69,12 +69,19 @@ li>a:hover::after {
 .content-titulo h1 {
     font-size: 50px;
     color: #fff;
-    font-weight: bold;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
+.content-titulo h3 {
+    margin: 25px 0px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #ccc;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
 article {
-    width: 750px;
+    width: 780px;
     text-align: center;
 }
 
@@ -85,7 +92,7 @@ input {
     border-radius: 15px;
 }
 
-input[value="Ver Más"] {
+input[value="Ver más"] {
     font-size: 15px;
     color: #fff;
     background-color: #3b1d7d;
@@ -94,17 +101,55 @@ input[value="Ver Más"] {
     padding: 10px 25px;
 }
 
-input[value="Ver Más"]:hover {
+input[value="Ver más"]:hover {
     background-color: #fff;
     color: #3b1d7d;
     transition: all .5s;
 }
 
 
+/* primer section */
+
+.bg-first {
+    margin-top: 100px;
+    height: 420px;
+    background: linear-gradient(#fff, #ccc, #9a6aff);
+    padding: 90px 0px;
+    text-align: center;
+}
+
+.bg-first h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #3b1d7d;
+    letter-spacing: 0.05em;
+}
+
+.bg-first p {
+    margin: 45px 120px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Comic Sans', sans-serif;
+}
+
+.bg-first .bt-init {
+    border: 2px solid #3b1d7d;
+    border-radius: 30px;
+    color: #3b1d7d;
+}
+
+.bg-first .bt-init:hover {
+    background-color: #3b1d7d;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all .2s;
+}
+
+
 /* Sección ¿Que hacemos? */
 
 .about-services {
-    margin-top: 100px;
     background: linear-gradient(#9a6aff, #684aaa, #3b1d7d);
     padding-bottom: 30px;
 }
@@ -178,7 +223,7 @@ input[value="Ver Más"]:hover {
 footer {
     background: #000;
     padding: 60px 0 30px 0;
-    margin: auto;
+    margin: auto auto 0px;
 }
 
 .contenedor-footer {
@@ -223,7 +268,7 @@ footer {
     height: 60px;
     bottom: 25px;
     right: 25px;
-    padding: 3px 2px 10px;
+    padding: 4px 2px 10px;
     background-color: #25d366;
     color: #FFF;
     box-shadow: 0px 1px 10px rgb(0 0 0 / 30%);
@@ -427,6 +472,18 @@ form input[type="submit"] {
 /* ----------- Responsive --------------- */
 
 @media screen and (max-width:768px) {
+    /* encabezado */
+    .content-titulo {
+        padding: 0px 40px;
+        margin: 10px;
+    }
+    /* primer section */
+    .bg-first {
+        padding: 15px;
+    }
+    .bg-first p {
+        margin: 25px;
+    }
     /* Galeria */
     .imagen-portfolio {
         width: 44%;
@@ -500,6 +557,13 @@ form input[type="submit"] {
 }
 
 @media screen and (max-width: 480px) {
+    /* primer section */
+    .bg-first {
+        padding: 5px 2px;
+    }
+    .bg-first p {
+        margin: 5px;
+    }
     /* Galeria*/
     .imagen-portfolio {
         width: 95%;
