@@ -559,7 +559,7 @@ form input[type="submit"] {
 @media screen and (max-width: 480px) {
     /* primer section */
     .bg-first {
-        padding: 5px 2px;
+        padding: 15px 2px;
     }
     .bg-first p {
         margin: 5px;
