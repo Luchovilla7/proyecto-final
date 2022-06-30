@@ -1,8 +1,8 @@
 # Proyecto Final Desarrollo Web
 
 
-✅ Bootstrap Aplicado en todos los html con el navbar, en el index y conatact agregué algun complemento más
+✅ Agregué un poco más de contenido en el index y un boton de WhatsApp flotante (eliminé una animación de librería AOS que me hizo un lío con el boton de whastapp que me generó un espacio, lo que es animación lo aplicaré de forma orgánica en CSS).
 
-✅ En el repositorio de Github pude darle el merge del branch "animation" al "master" el cual le agregué las animaciones que no es mucho por que no quedaba bien en mi sitio (index y service)
+✅ Todos os HTML'S estan totalmente responsive y le dí información real en base al proyecto.
 
-✅ Se encuentra ambas branch's y los commit's correspondientes realizados para ambas consignas y cumplir los desafíos de "Maquetando con Bootstrap" y "Crear repositorio en Github"
+✅ Le agregué un poco más de contenido al index, imagenes a las cards de servicios y un detalle nuevo en contacto.
