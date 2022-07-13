@@ -1,8 +1,8 @@
-# Proyecto Final Desarrollo Web
+# Proyecto Final Coderhouse Desarrollo Web
 
 
-✅ Agregué un poco más de contenido en el index y un boton de WhatsApp flotante (eliminé una animación de librería AOS que me hizo un lío con el boton de whastapp que me generó un espacio, lo que es animación lo aplicaré de forma orgánica en CSS).
+✅ Aplicado los componentes con SASS un Map Get y extend a botones del index, y un mixin a propiedades de la página de portafolio en la clase .galeria-portafolio 
 
-✅ Todos os HTML'S estan totalmente responsive y le dí información real en base al proyecto.
+✅ En cuanto a SEO, los meta keywords están agregados, description, los titles más extensos y la descripción alt a las imágenes 
 
-✅ Le agregué un poco más de contenido al index, imagenes a las cards de servicios y un detalle nuevo en contacto.
+✅ Completamente responsive
